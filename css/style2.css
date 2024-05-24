@@ -1,0 +1,171 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+	 font-family: "Montserrat", sans-serif; font-size: 16px;color: #666666;margin: 0;/*overflow-x: hidden*/
+}
+header{
+	width: 100%;height: 60px;position: absolute;top: 2%;display: flex;padding: 30px 100px;top: 0;left: 0;z-index: 100
+}
+.img-100{
+	width: 100%;height: auto
+}
+.logo{
+	float: left;width: 140px
+		
+}
+.menu ul{
+	margin: 0;padding: 0;list-style: none;display: flex
+}
+.menu{
+	padding-top: 20px; float: right
+}
+.menu ul li a{
+	padding: 10px 40px; text-decoration: none;color: white;border-radius: 20px
+	
+}
+.menu ul li a:hover{
+	background-color: #CE2127; color: white
+}
+#slide .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:#945336;
+      text-decoration: none; }
+main{
+	width: 100%;min-height: 500px
+}
+.text-do{
+	color: red
+}
+.vien{
+	border: 1px solid red; border-radius: 10px;position: relative;overflow: hidden;text-align: center;padding: 10px
+}
+.icon{
+	width: 80%;height: 40px;position: absolute;left: 10%;top: -15%;display: flex;justify-content: space-around;transition: all 1s;
+}
+.icon a{
+	width: 40px;height: 40px;background-color: #9A5C41;border-radius: 50%;color: white;display: flex;justify-content: center;align-items: center;text-decoration: none
+}
+.icon a:hover{
+	background-color: white;color: #9A5C41
+}.vien:hover .icon{
+	top: 40%
+}
+.banner{
+	width: 100%;position: relative
+}
+.caption{
+	width: 30%;text-align: left;position: absolute;left: 10%;color: #9A5C41;top: 40%
+}
+.caption h1{
+	font-size: 60px;font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";margin: 0
+}
+.caption h2{
+	margin: 10px 0;color: #E07C2B
+}
+.caption button{
+	width: 30%;height: 40px;border: 2px solid #9A5C41; color: #9A5C41;border-radius: 5px
+}
+.caption button:hover{
+	background-color: #9A5C41; color: white
+}
+.khung{
+	width: 50px;
+}
+.form-control{
+	padding: 8px;width: 100%; border-radius: 5px;border: 1px solid #9A5C41;margin-bottom: 10px
+}
+.contact form{
+	width: 30%;min-height: 200px;text-align: center;border: 1px solid #9A5C41;border-radius: 10px;position: absolute;left: 35%;top: 20%;box-shadow: 5px 5px 5px #9a5c41;padding: 30px
+}.contact form h1{
+	color: #9A5C41
+}
+.nut-gui{
+	padding: 10px 20px;margin: 10px; background-color: #9A5C41;color: white;border-radius: 10px
+}
+.nut-gui:hover{
+	background-color: white;color: #9A5C41
+}
+.banner-1{
+	width: 100%;height: auto;margin-top: 40px;position: relative
+}
+.product{
+	position: absolute;top: 20%;
+}
+.text-center{
+	text-align: center
+}
+.vien-1{
+	border: 1px solid #9A5C41; border-radius: 10px;position: relative;text-align: center;padding: 30px;color: #9A5C41
+}
+.vien-1:hover{
+	background-color: #9A5C41;color: white
+}
+.vien-1 a{
+	color: white;text-decoration: none
+}
+.product{
+	width: 100%
+}
+.product h1{
+	text-align: center;text-decoration: underline;color: #9A5C41
+}
+.product h1 a{
+	color: #9A5C41
+}
+.blog h2 a{
+	color: #9A5C41
+}
+.arrival h2{
+	text-align: center
+}
+.arrival h2 a{
+	color: #9A5C41
+}
+.text-1{
+	margin: 120px 0
+}
+.icon-1{
+	padding: 20px
+}
+.icon-1 a{
+	color: #9A5C41	
+}
+.icon-1 a:hover{
+	color: #7A7A7A
+}
+.text-2{
+	width: 100%;text-align: center;color: red
+}
+.blog{
+	text-align: center
+}
+.bighero{
+	position: relative; display: flex; justify-content: center;align-items: center;height: 100vh
+}
+#text{
+	position: absolute; font-size: 2em;color: aqua
+}
+.bighero img{
+	position: absolute; top: 0;left: 0;;width: 100%;pointer-events: none
+}
